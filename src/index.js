@@ -11,6 +11,7 @@ import RaiseTicketModal from "./RaiseTicketModal";
 function App() {
   return (
     <Routes>
+      <Route index element={<LoginPage />} />
       <Route path="login" element={<LoginPage />} />
       <Route path="dashboard" element={<SupportDashboard />} />
     </Routes>
